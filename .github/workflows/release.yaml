@@ -21,6 +21,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
           DEFAULT_BUMP: patch
+          RELEASE_BRANCHES: main
           WITH_V: true
 
   build:
